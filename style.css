@@ -1,0 +1,204 @@
+
+header{
+  position: relative;
+}
+.header__contact{
+  background-color: rgb(51,51,51);
+}
+
+.custom-logo{
+  position: absolute;
+  top: 0px;
+}
+
+.custom-logo img{
+  width: calc(2rem + 10vw);
+}
+
+.nav-item-custom{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.nav-item-custom a{
+  font-weight: 300;
+  font-size: calc(1rem + 0.5vw);
+  color: black !important;
+}
+
+.nav__search{
+  width: calc(1.2rem + 3vw)
+}
+.banner-section{
+  background-image: url('./assets/banner.jpg');
+  height: 100vh;
+  max-width: 100%;
+  padding-left: calc(1.5rem + 8vw);
+  padding-top: calc(1.5rem + 8vw);
+}
+
+.banner-section__circulardiv{
+  height: calc(10rem + 5vw);
+  width: calc(10rem + 5vw);
+  background-color: rgb(153,229,77);
+  border-radius: 50%;
+  color: black;
+}
+
+.offer-heading{
+  font-size: calc(1.5rem + 3vw);
+}
+
+.banner-section__heading{
+  font-size: calc(2rem + 3vw);
+  font-weight: 800;
+  width: 40%;
+}
+.offer__type{
+  font-size: calc(1.5rem + 0.5vw);
+}
+
+.banner-section__readmore{
+  background-color: rgb(242,174,15);
+  border-radius: 3rem;
+  color: white;
+  font-weight: 400;
+  border: none;
+}
+
+main{
+  background-color: rgb(26,26,26);
+}
+.custom-card{
+  border-radius: 5rem;
+  height: 30rem;
+  background-image: url('./assets/banner.jpg');
+  background-size: cover;
+  overflow: hidden;
+
+}
+.custom-card2{
+  border-radius: 5rem;
+  height: 30rem;
+  background-size: cover;
+  overflow: hidden;
+  background: none;
+
+}
+
+.half-circle{
+  width: 55%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: rgb(190,136,10);
+  position: absolute;
+  bottom: -73px;
+  right: 20%;
+  opacity: 0.8;
+}
+
+.half-circle h2{
+  opacity: 1;
+  color: black;
+}
+
+.circle-green{
+  background-color: rgb(123,182,66)
+}
+
+.custom-card2 h2{
+  color: rgb(196,147,10);
+}
+.custom-card2 p{
+  font-size: calc(1.2rem + 0.3vw);
+  overflow: hidden;
+  max-height: 14em;
+}
+.custom-card2__readmore{
+  background-color:rgb(123,182,66);
+  color: black;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.article-card{
+  border-radius: 5rem;
+  height: 40rem;
+  background: none;
+  background-size: cover;
+  overflow: hidden;
+}
+.article-card__img{
+  border-radius: 5rem;
+  height: 40rem;
+  background-image: url('./assets/fish.png');
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.article-card h2{
+  font-size: calc(3rem + 3vw);
+  font-weight: 700;
+  color: white;
+}
+.article-card__subheading{
+  font-size: calc(1rem + 0.5vw);
+}
+.article-text{
+  font-size: 1.2rem;
+}
+
+.our-menue-section__heading{
+  font-size: calc(1.5rem + 3vw);
+  font-weight: 800;
+  
+}
+.our-menue-section__description{
+  font-size: 1.5rem;
+  
+}
+.our-menue-section__description a{
+  color: rgb(196,147,10);;
+  
+}
+
+.menue-card__img{
+  border-radius: 5rem;
+  height: 40rem;
+  background-image: url('./assets/fish.png');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.menue-card__heading{
+  font-size: 1.5rem;
+}
+.menue-section__readmore{
+  background-color:rgb(123,182,66); ;
+  color: black;
+  border-radius: 3rem;
+  border: none;
+  width: 50%;
+}
+
+footer{
+  color: white;
+  background-color: rgb(51,51,51);
+  padding: 2rem;
+}
+
+@media (max-width: 991px) {
+
+  .nav-section{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+}
+
+@media (max-width: 1100px) {
+  .banner-section__heading{
+    width: 100%;
+  }
+}
