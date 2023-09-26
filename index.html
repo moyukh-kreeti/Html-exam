@@ -71,7 +71,7 @@
   </header>
 
   <main>
-    <section class="container py-5">
+    <section class="container py-5 max-section-width">
       <div class="row align-items-center justify-content-center">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
           <div class="card custom-card">
@@ -100,8 +100,7 @@
       </div>
     </section>
 
-    <article class="container">
-
+    <article class="container max-section-width">
       <div class="row align-items-center justify-content-center">
         <div class="col-xs-12 col-sm-12 col-md-6 mb-3">
           <div class="card article-card d-flex flex-column pt-5">
@@ -112,17 +111,15 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 mb-3">
-          <div class="card article-card__img">    
+          <div class="card article-card">
+            <img src="./assets/fish.png" alt="" class="article-card__img">    
           </div>
         </div>
-
-       
       </div>
-
     </article>
 
 
-    <section class="container py-5">
+    <section class="container py-5 max-section-width">
       <div class="row align-items-center justify-content-center">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
           <div class="card custom-card">
@@ -152,52 +149,110 @@
       </div>
     </section>
 
-    <section class="container our-menue-section">
-
+    <section class="container our-menue-section max-section-width">
       <h2 class="our-menue-section__heading text-white text-center">View Our menue</h2>
       <p class="our-menue-section__description text-white text-center">Sample text. Click to select the text element. Image from <a href="">Freepick</a></p>
-
       <div class="row align-items-center justify-content-center">
         <div class="col-xs-12 col-sm-12 col-md-6 mb-5">
-          <div class="card menue-card__img mb-3 ">    
+          <div class="card menue-card mb-3 "> 
+            <img src="./assets/hot-pizza.png" alt="Hot-Pizza-Image" class="menue-card__img">   
           </div>
           <div class="d-flex flex-column mb-3">
             <h2 class="menue-card__heading text-center text-white">HOT PIZZA</h2>
-          <button class="menue-section__readmore py-3 px-5 m-auto">READ MORE</button>
+          <button class="menue-section__readmore  m-auto">READ MORE</button>
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 mb-5">
-          <div class="card menue-card__img mb-3 ">    
+          <div class="card menue-card mb-3 ">
+            <img src="./assets/salads.png" alt="Salad-Image" class="menue-card__img">     
           </div>
           <div class="d-flex flex-column mb-3">
             <h2 class="menue-card__heading text-center text-white">SALAD</h2>
-          <button class="menue-section__readmore py-3 px-5 m-auto">READ MORE</button>
+          <button class="menue-section__readmore  m-auto">READ MORE</button>
           </div>
         </div>
       </div>
       <div class="row align-items-center justify-content-center">
         <div class="col-xs-12 col-sm-12 col-md-6 mb-5">
-          <div class="card menue-card__img mb-3 ">    
+          <div class="card menue-card mb-3 ">
+            <img src="./assets/desert.png" alt="Desert-Image" class="menue-card__img">    
           </div>
           <div class="d-flex flex-column mb-3">
             <h2 class="menue-card__heading text-center text-white">DESERT</h2>
-          <button class="menue-section__readmore py-3 px-5 m-auto">READ MORE</button>
+          <button class="menue-section__readmore  m-auto">READ MORE</button>
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 mb-5">
-          <div class="card menue-card__img mb-3 ">    
+          <div class="card menue-card mb-3 "> 
+            <img src="./assets/drinks.png" alt="Drinks-Image" class="menue-card__img">   
           </div>
           <div class="d-flex flex-column mb-3">
             <h2 class="menue-card__heading text-center text-white">DRINKS</h2>
-          <button class="menue-section__readmore py-3 px-5 m-auto">READ MORE</button>
+          <button class="menue-section__readmore  m-auto">READ MORE</button>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us-section">
+      <div class="container contact-us-section__container d-flex flex-column">
+        <div class="contact-us-section__circulardiv d-flex flex-column align-items-center justify-content-center">
+          <h2 class="offer-heading">40%</h2>
+          <p class="offer__type text-center">BUSINESS LUNCH</p>
+        </div>
+        <section>
+          <h2 class="contact-us-section__heading">Keep up to date with us</h2>
+          <p class="contact-us-section__description"> Sample text. Click to select the Text Element</p>
+          <div class="contact-us-section__form">
+            <input type="text" class="contact-us-section__input" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="contact-us-section__submit" type="button" id="button-addon2">SUBMIT</button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="contact-option">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-items-center d-flex flex-column">
+            <div class="contact-option__circulardiv d-flex flex-column align-items-center justify-content-center">
+              <img src="./assets/Chart_To_Us.png" alt="">
+            </div>
+            <figcaption>
+              CHAT TO US
+            </figcaption>
+            <p class="text-center text-white py-3">Our friendly team is here to help</p>
+            <p class="text-center py-3 text-yellow">hi@ourcompany.com</p>
+          </figure>
+          <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-items-center d-flex flex-column">
+            <div class="contact-option__circulardiv d-flex flex-column align-items-center justify-content-center">
+              <img src="./assets/Office.png" alt="">
+            </div>
+            <figcaption>
+              OFFICE
+            </figcaption>
+            <p class="text-center text-white py-3">Come say hello at our office HQ.</p>
+            <p class="text-center py-3 text-yellow">121 Rock street, 21 Aveneu</p>
+          </figure>
+          <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-items-center d-flex flex-column">
+            <div class="contact-option__circulardiv d-flex flex-column align-items-center justify-content-center">
+              <img src="./assets/Phone.png" alt="">
+            </div>
+            <figcaption>
+              PHONE
+            </figcaption>
+            <p class="text-center text-white py-3">Mon-Fri from 8 am to 5 pm</p>
+            <p class="text-center py-3 text-yellow">hi@ourcompany.com</p>
+          </figure>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container text-center d-flex align-items-center justify-content-center">Copyrights@FoodCircle</div>
+    <div class="container text-center d-flex align-items-center justify-content-center">
+      <p class="footer__text">Copyrights@FoodCircle</p>
+    </div>
   </footer>
   
 </body>
