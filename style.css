@@ -37,7 +37,7 @@ header{
   background-image: url('./assets/banner.jpg');
   height: 100vh;
   max-width: 100%;
-  padding-left: calc(1.5rem + 8vw);
+  padding-left: calc(1.5rem + 10vw);
   padding-top: calc(1.5rem + 8vw);
   background-repeat: no-repeat;
   background-size: cover;
@@ -154,9 +154,9 @@ main{
 }
 
 .our-menue-section__heading{
-  font-size: calc(1.5rem + 3vw);
+  font-size: calc(1.5rem + 2vw);
   font-weight: 800;
-  
+  font-family: 'Poppins', sans-serif;
 }
 
 .our-menue-section__description{
@@ -165,7 +165,7 @@ main{
 }
 
 .our-menue-section__description a{
-  color: rgb(196,147,10);;
+  color: rgb(242,174,13)
   
 }
 
@@ -245,7 +245,8 @@ main{
 
 .contact-us-section__input{
   padding: 1rem;
-  width: 50%;
+  width: 100%;
+  height: 100%;
   border-radius: 1.5rem;
   border: none;
   margin-right: 1rem;
